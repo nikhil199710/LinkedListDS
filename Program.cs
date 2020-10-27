@@ -32,6 +32,9 @@ namespace LinkedListDataStructure
             //deleting 1st element from list
             linkedList.DeleteFirstElement();
             linkedList.DisplayLinkedList();
+            //deleting last element
+            linkedList.DeleteLastElement();
+            linkedList.DisplayLinkedList();
 
         }
     }
