@@ -4,6 +4,7 @@
 // </copyright>
 // <creator Name="Nikhil Kumar Yadav"/>
 // --------------------------------------------------------------------------------------------------------------------
+
 using System;
 
 namespace LinkedListDataStructure
@@ -184,6 +185,27 @@ namespace LinkedListDataStructure
             //address in the temp node(2nd last element) is set to null, hence last node is abandoned.
             temp.next = null;
 
+        }
+        public bool SearchLinkedList(int searchdata)
+        {
+            int index = 0;
+            Node temp = head;
+            if (head == null)
+            {
+                Console.WriteLine("Empty Linked List");
+                return false;
+            }
+            while (temp.next != null)
+            {
+                index += 1;
+                if (temp.data == searchdata)
+                {
+                    Console.WriteLine($"{searchdata} is present in the list at {index} position.");
+                    return true;
+                }
+                temp = temp.next;
+            }
+            return false;
         }
     }
 }
