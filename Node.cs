@@ -1,11 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="LinkedList.cs" company="Bridgelabz">
-//   Copyright © 2018 Company
-// </copyright>
-// <creator Name="Nikhil Kumar Yadav"/>
-// --------------------------------------------------------------------------------------------------------------------
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
