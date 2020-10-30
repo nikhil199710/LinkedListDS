@@ -1,10 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="LinkedList.cs" company="Bridgelabz">
-//   Copyright © 2018 Company
-// </copyright>
-// <creator Name="Nikhil Kumar Yadav"/>
-// --------------------------------------------------------------------------------------------------------------------
-using System;
+﻿using System;
 
 namespace LinkedListDataStructure
 {
@@ -19,16 +13,16 @@ namespace LinkedListDataStructure
             //linkedList.DataAtEnd(56);
             //linkedList.DataAtEnd(30);
             //linkedList.DataAtEnd(70);
-            linkedList.DisplayLinkedList();
+            //linkedList.DisplayLinkedList();
             //adding data in front of linkedlist
             linkedList.DataAtFront(70);
             linkedList.DataAtFront(30);
             linkedList.DataAtFront(56);
             //displaying linkedlist
-            linkedList.DisplayLinkedList();
+            //linkedList.DisplayLinkedList();
             //inserting element in linkedlist
-            linkedList.InsertingData(4, 45);
-            linkedList.DisplayLinkedList();
+            //linkedList.InsertingData(2, 45);
+            //linkedList.DisplayLinkedList();
             //deleting 1st element from list
             //linkedList.DeleteFirstElement();
             //linkedList.DisplayLinkedList();
@@ -36,8 +30,11 @@ namespace LinkedListDataStructure
             //linkedList.DeleteLastElement();
             //linkedList.DisplayLinkedList();
             //searching data in the list
-            linkedList.SearchLinkedList(56);
-            linkedList.SearchLinkedList(70);
+            //linkedList.SearchLinkedList(56);
+            //linkedList.SearchLinkedList(45);
+            //inserting element in list using data
+            linkedList.InsertingElementWithData(16, 30);
+            linkedList.DisplayLinkedList();
 
         }
     }
