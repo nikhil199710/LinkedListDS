@@ -21,9 +21,9 @@ namespace LinkedListDataStructure
             //linkedList.DataAtEnd(70);
             linkedList.DisplayLinkedList();
             //adding data in front of linkedlist
-            linkedList.DataAtFront(70);
-            linkedList.DataAtFront(30);
-            linkedList.DataAtFront(56);
+            linkedList.AppendingData(70);
+            linkedList.AppendingData(30);
+            linkedList.AppendingData(56);
             //displaying linkedlist
             linkedList.DisplayLinkedList();
 
